@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Multi-step form</title>
+		<link rel="stylesheet" href="./style/style.css" />
+    <script src="./script/script.js" defer></script>
+	</head>
+	<body>
+		<div class="card_1">
+			<aside>
+				<img
+					class="bck_img"
+					src="./assets/images/bg-sidebar-mobile.svg"
+					alt=""
+				/>
+			</aside>
+			<div class="stages">
+				<button class="buttons active">1</button>
+				<button class="buttons">2</button>
+				<button class="buttons">3</button>
+				<button class="buttons">4</button>
+			</div>
+			<div class="container">
+				<h1 class="personal_info_title">Personal Info</h1>
+				<p class="information">
+					Please provide your name, email adrress, and phone number.
+				</p>
+				<form>
+					<label for="name" class="form_info">Name</label>
+					<input
+						type="text"
+						class="form_input name"
+						placeholder="e.g. Stephen King"
+					/>
+					<label for="name" class="form_info">Email Address</label>
+					<input
+						type="text"
+						class="form_input email"
+						placeholder="e.g. stephenking@lorem.com"
+					/>
+					<label for="name" class="form_info">Phone Number</label>
+					<input
+						type="number"
+						class="form_input phone"
+						placeholder="e.g. +1 234 567 890"
+					/>
+				</form>
+			</div>
+			<div class="second">
+				<h1 class="personal_info_title">Select your plan</h1>
+				<p class="information">
+					You have the option of monthly or yearly biling.
+				</p>
+				<button class="plan_choice">
+					<img src="./assets/images/icon-arcade.svg" alt="" />
+					<div class="plan_text">
+						<h3 class="plan">Arcade</h3>
+						<p class="plan_price">$9/mo</p>
+					</div>
+				</button>
+				<button class="plan_choice">
+					<img src="./assets/images/icon-advanced.svg" alt="" />
+					<div class="plan_text">
+						<h3 class="plan">Advanced</h3>
+						<p class="plan_price">$12/mo</p>
+					</div>
+				</button>
+				<button class="plan_choice">
+					<img src="./assets/images/icon-pro.svg" alt="" />
+					<div class="plan_text">
+						<h3 class="plan">Pro</h3>
+						<p class="plan_price">$15/mo</p>
+					</div>
+				</button>
+				<div class="month_or_year">
+					<p>Monthly</p>
+					<div class="btn">
+						<div class="circle"></div>
+					</div>
+					<p>Yearly</p>
+				</div>
+			</div>
+			<div class="third">
+				<h1 class="personal_info_title">Pick add-ons</h1>
+				<p class="information">Add-ons help enhance your gaming experience.</p>
+				<button class="plan_choice">
+					<img
+						src="./assets/images/icon-checkmark.svg"
+						alt=""
+						class="checkmark"
+					/>
+					<div class="plan_text">
+						<h3 class="plan">Online service</h3>
+						<p class="plan_price">Access to multiplayer games</p>
+					</div>
+					<p>+$1/mo</p>
+				</button>
+				<button class="plan_choice">
+					<img
+						src="./assets/images/icon-checkmark.svg"
+						alt=""
+						class="checkmark"
+					/>
+					<div class="plan_text">
+						<h3 class="plan">Larger storage</h3>
+						<p class="plan_price">Extra 1TB of cloud save</p>
+					</div>
+					<p>+$2mo</p>
+				</button>
+				<button class="plan_choice">
+					<img
+						src="./assets/images/icon-checkmark.svg"
+						alt=""
+						class="checkmark"
+					/>
+					<div class="plan_text">
+						<h3 class="plan">Customizable profile</h3>
+						<p class="plan_price">Custom theme on your profile</p>
+					</div>
+					<p>+$2/mo</p>
+				</button>
+			</div>
+			<div class="fourth">
+				<h1 class="personal_info_title">Finishing up</h1>
+				<p class="information">
+					Double-check everything looks OK before confirming.
+				</p>
+				<div class="finish_area">
+          <div class="streight_line">
+            <div class="choice">
+              <p>Choice</p>
+              <a href="">Change</a>
+            </div>
+            <p>$9/mo</p>
+          </div>
+					
+				</div>
+				<div class="total">
+					<p>Total (per month)</p>
+					<p>+$12/mo</p>
+				</div>
+			</div>
+
+      <div class="fiveth">
+        <img src="./assets/images/icon-thank-you.svg" alt="">
+				<h1 class="personal_info_title">Thank you!</h1>
+        <p>Thanks for confirming your subscription!<br> We hope you have fun using our<br> platform. If you ever need support,<br> please feel free to email us at support@loremgaming.com.
+        </p>
+			</div>
+
+			<footer class="footer">
+				<p class="preview_site"></p>
+				<button class="btn_next_step">Next Step</button>
+			</footer>
+		</div>
+	</body>
+</html>
